@@ -1,7 +1,14 @@
 # EXPERIMENT--01-ALP-FOR-8086
-# Name : OBELESH R
-# Roll no : 212224040228
-# Date of experiment : 31/07/2026
+
+Name :OBELESH R
+
+Roll no : 212224040228
+
+Date of experiment : 25/07/2026
+
+
+
+
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -29,20 +36,51 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
 
+
+
+
+
+
+
+
+
+
 9.	Click on emulate to start emulation 
+
+
+
+
+
+
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
 
+
+
+
+
+
+
+
 10.	If no errors are found click on run the program and check the status of various flags in the flags tab as shown below 
+
+
+
+
 
 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
 
 
+
+
+
+
+
 ## Programs for arithmetic  operations
-## Output :
-# ADDITION
+
+## Addition  of 8 bit ALP 
 ```
 org 100h
 mov ax,[1100h]
@@ -52,55 +90,60 @@ mov [1200h], ax
 mov [1202h], dx
 hlt
 ```
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/713a8d52-ecd0-49a1-ad72-48b5f8b86d4c" />
 
-# SUBRACTION
-```
+
+
+## Output  
+<img width="1632" height="960" alt="image" src="https://github.com/user-attachments/assets/e2bc9aa6-f42c-49a6-b5b0-ef39faa6ac38" />
+
+ 
+## Subtraction   of 8 bit numbers  ALP 
+ ```
 org 100h
 mov ax,[1100h]
 mov bx,[1102h]
 sub ax,bx
-mov [1200h], ax
-mov [1202h], dx
+mov [1200h],ax
+mov [1202h],dx
 hlt
-```
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/e40365a2-24bb-4d33-ab7a-ac02c61b6678" />
+ 
+ ```
+## Output  
+<img width="1498" height="1183" alt="image" src="https://github.com/user-attachments/assets/12d4628c-624f-4123-b9dc-b1c4c87c391e" />
 
-# MULTIPLICATION
+## Multiplication alp 
 ```
 org 100h
 mov ax,[1100h]
 mov bx,[1102h]
 mul bx
-mov [1200h], ax
-mov [1202h], dx
+mov [1200h],ax
+mov [1202h],dx
 hlt
 ```
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/95e0147d-a73e-4531-b2f8-ee12c153641e" />
 
-# DIVISION
+ ## Output  
+ <img width="1906" height="1177" alt="image" src="https://github.com/user-attachments/assets/339bb24c-756c-4b96-ae73-e5a7cf344387" />
+
+
+
+## Division alp 
 ```
 org 100h
 mov ax,[1100h]
 mov bx,[1102h]
 div bx
-mov [1200h], ax
-mov [1202h], dx
+mov [1200h],ax
+mov [1202h],dx
 hlt
-```
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/c4f016a3-7f62-446a-829f-8611b037a851" />
 
-# AND
-```
-org 100h
-mov ax,[1100h]
-mov bx,[1102h]
-and ax,bx
-ret
-```
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/115a01a4-8c97-4a35-b8c0-90fc5ab46a04" />
 
-# OR
+```
+
+## Output  
+<img width="1457" height="1147" alt="image" src="https://github.com/user-attachments/assets/143a8aab-6155-4916-9df9-b9b4966eccc2" />
+
+## OR alp
 ```
 org 100h
 mov ax,[1100h]
@@ -108,10 +151,10 @@ mov bx,[1102h]
 or ax,bx
 ret
 ```
-<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/2862f2d0-75ed-4849-bdae-59f44e13e0ed" />
+## Output
+<img width="1520" height="1128" alt="image" src="https://github.com/user-attachments/assets/9533633e-e303-4781-b6fc-574bfabc48ec" />
 
-
-# NOR
+## NOR alp
 ```
 org 100h
 mov ax,[1100h]
@@ -120,9 +163,12 @@ or ax,bx
 not ax
 ret
 ```
+
+## Output
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/9325eee5-7f6c-40e5-8dbd-47d68a368251" />
 
-# XOR
+
+## XNOR alp
 ```
 org 100h
 mov ax,[1100h]
@@ -130,18 +176,29 @@ mov bx,[1102h]
 xor ax,bx
 ret
 ```
+## Output
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/da96b723-2ce2-4ff3-b28b-1e66302b1a97" />
 
-# NOT
+## NOT alp
 ```
 org 100h
 mov ax,[1100h]  
 not ax 
 ret
 ```
+
+# Output
+
 <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/2e2b7cdb-255b-43eb-9106-d3738f9c2be8" />
 
 
 ## Result :
+ 
 Thus execution of ALP on fundamental arithmetic and logical operations is sucessfully verified.
+
+
+
+
+
+
 
